@@ -16,6 +16,7 @@ function mostraHora(request, response) {
 
   response.send(hora);
 }
+//função de capturar horário local
 
 function mostraPorta() {
   console.log("Servidor criado e rodando na porta ", porta);
